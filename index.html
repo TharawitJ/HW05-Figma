@@ -1,141 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Home</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- nav -->
     <nav>
-        <a href="#">Home</a>
-        <a href="./blog.html">Blog</a>
-        <a href="./work.html">Works</a>
-        <a href="./contact.html">Contact</a>
+      <a href="#">Home</a>
+      <a href="./blog.html">Blog</a>
+      <a href="./work.html">Works</a>
+      <a href="./contact.html">Contact</a>
     </nav>
+
     <!-- Main -->
     <!-- main top -->
     <div class="topContent">
-        <img src="./assets/409645953_728519192144285_1424155572009338969_n.jpg" alt="" class="topContent__profile">
+      <img
+        src="./assets/profile.jpg"
+        alt=""
+        class="topContent__profile"
+      />
 
-        <div class="topContent__left">
-            <div>
-                <h2>Hi, I am Tharawit,</h2>
-                <h2>CodeCamp Thailand #22 Student</h2>
-            </div>
-            <p class="smallFont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta. Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Quia, soluta.</p>
-            <button>Download Resume</button>
+      <div class="topContent__left">
+        <div>
+          <h2>Hi, I am Tharawit,</h2>
+          <h2>CodeCamp Thailand #22 Student</h2>
         </div>
+        <p class="smallFont">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, soluta.
+        </p>
+        <button>Download Resume</button>
+      </div>
     </div>
+
     <!-- main top -->
     <div class="midContent">
-        <div class="midContent__topic">
-            <h5>Recent Post</h5>
-            <a href="" class="smallFont">View all</a>
+      <div class="midContent__topic">
+        <h5>Recent Post</h5>
+        <a href="" class="smallFont">View all</a>
+      </div>
+      <div class="midContent__cardContainer">
+        <div class="midContent__card">
+          <h3>MidContent 1</h3>
+          <div
+            class="midContent__datetime__category smallFont datetime__category"
+          >
+            <p class="smallFont">1 Jan 2026</p>
+            |
+            <p class="smallFont">HTML CSS</p>
+          </div>
+          <p class="midContent__card__content card__content smallFont">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci
+            asperiores, cupiditate eveniet placeat sequi
+          </p>
         </div>
         <div class="midContent__card">
-            <h3>Post 1</h3>
-            <div class="midContent__datetime__category smallFont datetime__category">
-                <p class="smallFont">1 Jan 2026</p>|<p class="smallFont">HTML CSS</p>
-            </div>
-            <p class="midContent__card__content smallFont">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Adipisci asperiores, cupiditate eveniet placeat sequi </p>
+          <h3>MidContent 2</h3>
+          <div
+            class="midContent__datetime__category smallFont datetime__category"
+          >
+            <p class="smallFont">17 Jan 2026</p>
+            |
+            <p class="smallFont">HTML CSS</p>
+          </div>
+          <p class="midContent__card__content card__content smallFont">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Dignissimos vitae unde repellat enim ipsa sapiente ullam odio
+            voluptatum consequuntur veritatis debitis id repudiandae quas
+            commodi rem saepe est, atque qui?
+          </p>
         </div>
-        <div class="midContent__card">
-            <h3>Post 2</h3>
-            <div class="midContent__datetime__category smallFont datetime__category">
-                <p class="smallFont">17 Jan 2026</p>|<p class="smallFont">HTML CSS</p>
-            </div>
-            <p class="midContent__card__content card__content smallFont">Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Dignissimos vitae unde repellat enim ipsa sapiente ullam odio voluptatum consequuntur
-                veritatis debitis id repudiandae quas commodi rem saepe est, atque qui?
-            </p>
-        </div>
+      </div>
     </div>
+
     <!-- bottom -->
     <div class="bottomContent">
-        <h5>Featured works</h5>
+      <h5>Featured works</h5>
+      <div class="bottomContent__cardContainer">
         <div class="bottomContent__card">
-            <img src="./assets/486153177_633809782835225_3779780999891897226_n.jpg" alt=""
-                class="bottomContent__card__img">
-            <div>
-                <h3></h3>
-                <div class="bottomContent__datetime__category smallFont datetime__category">
-                    <p class="smallFont date">2026</p>
-                    <p class="smallFont">Dashboard</p>
-                </div>
-                <p class="midContent__card__content card__content smallFont">Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Aut dolorum reiciendis corporis distinctio
-                    hic, debitis officiis corrupti quasi fuga doloribus vero neque voluptate! Dolor quam totam iure quae
-                    natus. Deserunt!
-                </p>
+          <img
+            src="./assets/486153177_633809782835225_3779780999891897226_n.jpg"
+            alt=""
+            class="bottomContent__card__img"
+          />
+          <div class="bottomContent__card__detail">
+            <h3>First Card</h3>
+            <div
+              class="bottomContent__datetime__category smallFont datetime__category"
+            >
+              <p class="smallFont date">2026</p>
+              <p class="smallFont">Dashboard</p>
             </div>
+            <p class="bottomContent__card__content card__content smallFont">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              dolorum reiciendis corporis distinctio hic, debitis officiis
+              corrupti quasi fuga doloribus vero neque voluptate! Dolor quam
+              totam iure quae natus. Deserunt!
+            </p>
+          </div>
+        </div>
 
-            <div class="bottomContent__card">
-                <img src="./assets/486153177_633809782835225_3779780999891897226_n.jpg" alt=""
-                    class="bottomContent__card__img">
-                <div>
-                    <h3></h3>
-                    <div class="bottomContent__datetime__category smallFont datetime__category">
-                        <p class="smallFont date">2026</p>
-                        <p class="smallFont">Dashboard</p>
-                    </div>
-                    <p class="midContent__card__content card__content smallFont">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Aut dolorum reiciendis corporis distinctio
-                        hic, debitis officiis corrupti quasi fuga doloribus vero neque voluptate! Dolor quam totam iure
-                        quae
-                        natus. Deserunt!
-                    </p>
-                </div>
-                <div class="bottomContent__card">
-                    <img src="./assets/486153177_633809782835225_3779780999891897226_n.jpg" alt=""
-                        class="bottomContent__card__img">
-                    <div>
-                        <h3></h3>
-                        <div class="bottomContent__datetime__category smallFont datetime__category">
-                            <p class="smallFont date">2026</p>
-                            <p class="smallFont">Dashboard</p>
-                        </div>
-                        <p class="midContent__card__content card__content smallFont">Lorem ipsum dolor sit amet
-                            consectetur
-                            adipisicing elit. Aut dolorum reiciendis corporis distinctio
-                            hic, debitis officiis corrupti quasi fuga doloribus vero neque voluptate! Dolor quam totam
-                            iure quae
-                            natus. Deserunt!
-                        </p>
-                    </div>
-                </div>
-                <div class="bottomContent__card">
-                    <img src="./assets/486153177_633809782835225_3779780999891897226_n.jpg" alt=""
-                        class="bottomContent__card__img">
-                    <div>
-                        <h3></h3>
-                        <div class="bottomContent__datetime__category smallFont datetime__category">
-                            <p class="smallFont date">2026</p>
-                            <p class="smallFont">Dashboard</p>
-                        </div>
-                        <p class="midContent__card__content card__content smallFont">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut dolorum reiciendis corporis
-                            distinctio
-                            hic, debitis officiis corrupti quasi fuga doloribus vero neque voluptate! Dolor quam totam
-                            iure quae
-                            natus. Deserunt!
-                        </p>
-                    </div>
-                </div>
+        <div class="bottomContent__card">
+          <img
+            src="./assets/catmeme.jpeg"
+            alt=""
+            class="bottomContent__card__img"
+          />
+          <div class="bottomContent__card__detail">
+            <h3>Cat Meme</h3>
+            <div
+              class="bottomContent__datetime__category smallFont datetime__category"
+            >
+              <p class="smallFont date">2026</p>
+              <p class="smallFont">Dashboard</p>
             </div>
+            <p class="bottomContent__card__content card__content smallFont">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              dolorum reiciendis corporis distinctio hic, debitis officiis
+              corrupti quasi fuga doloribus vero neque voluptate! Dolor quam
+              totam iure quae natus. Deserunt!
+            </p>
+          </div>
         </div>
+
+        <div class="bottomContent__card">
+          <img
+            src="./assets/StreetLight.jpg"
+            alt=""
+            class="bottomContent__card__img"
+          />
+          <div class="bottomContent__card__detail">
+            <h3>Street Light</h3>
+            <div
+              class="bottomContent__datetime__category smallFont datetime__category"
+            >
+              <p class="smallFont date">2026</p>
+              <p class="smallFont">Dashboard</p>
+            </div>
+            <p class="bottomContent__card__content card__content smallFont">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              dolorum reiciendis corporis distinctio hic, debitis officiis
+              corrupti quasi fuga doloribus vero neque voluptate! Dolor quam
+              totam iure quae natus. Deserunt!
+            </p>
+          </div>
+        </div>
+        <div class="bottomContent__card bottomContent__card__last">
+          <img
+            src="./assets/SnowMountainView.jpg"
+            alt=""
+            class="bottomContent__card__img"
+          />
+          <div class="bottomContent__card__detail">
+            <h3>Mountain</h3>
+            <div
+              class="bottomContent__datetime__category smallFont datetime__category"
+            >
+              <p class="smallFont date">2026</p>
+              <p class="smallFont">Dashboard</p>
+            </div>
+            <p class="bottomContent__card__content card__content smallFont">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              dolorum reiciendis corporis distinctio hic, debitis officiis
+              corrupti quasi fuga doloribus vero neque voluptate! Dolor quam
+              totam iure quae natus. Deserunt!
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-        <!-- footer -->
+    <!-- footer -->
     <div class="footer">
-        <div class="footer__icon">
-            fb ig x linkdin
-        </div>
-        <p class="footer__copyright">Copyright@2026</p>
+      <div class="footer__icon">fb ig x linkdin</div>
+      <p class="footer__copyright">Copyright@2026</p>
     </div>
-</body>
+  </body>
 </html>
