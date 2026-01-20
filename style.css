@@ -9,9 +9,11 @@ html {
   font-style: normal;
 }
 body {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   background-color: rgb(238, 236, 236);
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
@@ -39,14 +41,20 @@ nav {
 .bottomContent,
 .mainContent {
   padding-inline: 10%;
+  flex-grow: 1;
   /* background-color: bisque; 
 }
 body * {
   /* padding-inline: 10%; */
 }
-.mainContent h1{
-    padding: 10px 10px 30px 10px;
+.mainContent {
+    display: flex;
+    flex-direction: column;
 }
+.mainContent h1 {
+  margin: 10px 10px 30px 10px;
+}
+
 /* main top */
 .topContent {
   padding-top: 5%;
@@ -67,11 +75,12 @@ body * {
 .topContent__left button {
   width: 55%;
   min-width: 160px;
-  height: 1.5rem;
-  background-color: rgb(206, 243, 255);
+  min-height: 1.8rem;
+  background-color: rgb(49, 86, 99);
   color: rgb(0, 0, 0);
   font-weight: 600;
-  border: 1px solid rgb(194, 194, 255);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(106, 106, 165);
   border-radius: 10px;
 }
 .topContent__profile {
@@ -85,12 +94,15 @@ body * {
 
 /* main mid */
 .midContent {
-  background-color: rgb(213, 248, 237);
   padding-block: 15px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 20px;
+}
+.lightblueBG {
+  background-color: rgb(216, 231, 227);
+  padding-bottom: 20px;
 }
 .midContent__topic {
   display: flex;
@@ -133,14 +145,15 @@ body * {
 .bottomContent {
   display: flex;
   flex-direction: column;
-  padding-block: 10px;
+  padding-bottom: 10px;
   gap: 10px;
+  padding-top: 20px;
 }
 .bottomContent__cardContainer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* margin-top: 10px; */
+  padding-top: 10px;
 }
 .bottomContent__card {
   display: flex;
@@ -151,14 +164,16 @@ body * {
 /* .bottomContent__card__content {
     margin-left: 5px;
 } */
-.bottomContent .date {
-  width: 2rem;
-  height: 1rem;
+.date {
+  min-width: 3rem;
+  height: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(207, 207, 249);
+  background-color: rgb(48, 48, 99);
   border-radius: 10px;
+  color: aliceblue;
+  font-weight: 600;
 }
 
 .bottomContent__card__img {
@@ -183,6 +198,7 @@ body * {
   padding-left: 10px;
 }
 /* footer */
+
 .footer {
   width: 85%;
   display: flex;
@@ -191,8 +207,8 @@ body * {
   justify-content: end;
   align-items: center;
   gap: 5px;
-  margin-block: 5px;
   border-top: 1px solid gray;
+  margin-block: 5px;
   padding-block: 8px;
 }
 .footer__icon {
@@ -242,4 +258,3 @@ body * {
     border: none;
   }
 }
-
